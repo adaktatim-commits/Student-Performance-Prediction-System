@@ -4,20 +4,20 @@ import streamlit as st
 import pandas as pd
 
 
-from src.data_preprocessing import (
+from data_preprocessing import (
     load_dataset,
     clean_dataset,
     get_dataset_info
 )
 
-from src.visualization import (
+from visualization import (
     show_visualizations,
     study_hours_chart,
     attendance_chart,
     correlation_heatmap
 )
 
-from src.model_training import (
+from model_training import (
     train_model,
     predict_student
 )
